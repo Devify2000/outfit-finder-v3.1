@@ -1,0 +1,5 @@
+{"ts":"2025-10-25T16:27:41.989Z","event":"lens_serpapi","count":60}
+{"ts":"2025-10-25T16:28:55.524Z","event":"lens_serpapi","count":60}
+{"ts":"2025-10-25T16:36:50.897Z","event":"lens_serpapi","count":60}
+{"ts":"2025-10-25T16:51:19.508Z","event":"lens_serpapi","count":60}
+{"ts":"2025-10-25T16:52:00.613Z","event":"fallback_gpt","reason":"rate_limit","items":4}

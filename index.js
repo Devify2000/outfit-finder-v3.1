@@ -28,5 +28,3 @@ app.get("/", (req, res) =>
 app.use("/api", outfitRoutes);
 
 export default app;
-
-//bakchodi

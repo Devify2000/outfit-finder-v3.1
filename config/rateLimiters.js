@@ -9,7 +9,11 @@ export const uploadLimiter = rateLimit({
   },
 });
 
-export const lensLimiter = rateLimit({
-  windowMs: 60 * 1000,
-  max: 1,
-});
+// export const lensLimiter = rateLimit({
+//   windowMs: 60 * 1000,
+//   max: 1,
+//   message: {
+//     success: false,
+//     error: "Too many lens requests, try again later.",
+//   },
+// });
