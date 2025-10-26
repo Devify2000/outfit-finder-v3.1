@@ -3,3 +3,9 @@
 {"ts":"2025-10-25T16:36:50.897Z","event":"lens_serpapi","count":60}
 {"ts":"2025-10-25T16:51:19.508Z","event":"lens_serpapi","count":60}
 {"ts":"2025-10-25T16:52:00.613Z","event":"fallback_gpt","reason":"rate_limit","items":4}
+{"ts":"2025-10-26T13:04:55.815Z","event":"upload","mime":"image/png","size":1098981}
+{"ts":"2025-10-26T13:08:05.868Z","event":"gpt_pipeline","items":4}
+{"ts":"2025-10-26T13:10:09.042Z","event":"lens_serpapi","count":60}
+{"ts":"2025-10-26T13:19:00.040Z","event":"upload","mime":"image/png","size":728875}
+{"ts":"2025-10-26T13:19:39.504Z","event":"gpt_pipeline","items":5}
+{"ts":"2025-10-26T13:21:19.756Z","event":"lens_serpapi","count":29}
