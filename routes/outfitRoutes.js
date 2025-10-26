@@ -1,16 +1,15 @@
 import express from "express";
 import {
+  upload,
   uploadImage,
   lensSearch,
-  upload,
+  gptSearch,
 } from "../controller/outfitController.js";
-import { uploadLimiter } from "../config/rateLimiters.js";
-import { serpapiGuard } from "../middleware/serpapiGuard.js";
 
 const router = express.Router();
 
-router.post("/upload", uploadLimiter, upload.single("image"), uploadImage);
-// router.post("/lens", lensLimiter, lensSearch);
-router.post("/lens", serpapiGuard, lensSearch);
+router.post("/upload", upload.single("image"), uploadImage);
+router.post("/lens", lensSearch);
+router.post("/search", gptSearch);
 
 export default router;
